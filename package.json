@@ -1,0 +1,21 @@
+{
+  "name": "Borik",
+  "version": "1.0.0",
+  "description": "Start pack for Front-end develop",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boris Tayoursky",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "latest",
+    "browser-sync": "latest",
+    "gulp-cssmin": "latest",
+    "gulp-htmlmin": "latest",
+    "gulp-rename": "latest",
+    "gulp-stylus": "latest",
+    "nib": "latest",
+    "typographic": "latest"
+  }
+}
