@@ -30,5 +30,74 @@
 		<p class="basictext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, corrupti, voluptate! At perspiciatis, excepturi hic, illum ipsum iusto voluptates dolor explicabo repellat vel rem officiis quasi, quam veniam incidunt architecto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, doloribus ducimus eligendi, quia tempore ab, iste doloremque neque accusamus tempora provident qui itaque eos natus eaque dolores ratione harum, quibusdam. </p>
 		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, consectetur.  </p>
 	</section>
+	<section class="boldtitle">
+		<div id="black">TIGHT GLASS</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt aperiam, tempora eaque repellendus, accusamus velit ratione! Sed aperiam impedit, laborum soluta, deserunt ducimus perferendis explicabo autem, unde dolorem dolor!</p>
+	</section>
+	<div class="portfoliowrap">
+
+	<div class="portfoliowrapper">
+
+		<section class="portfolio">
+
+
+
+			<a class="fancybox-button" rel="fancybox-button" href="images/1.jpeg"><img src="images/thumb1.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/2.jpeg"><img src="images/thumb2.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/3.jpg"><img src="images/thumb3.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/4.jpg"><img src="images/thumb4.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/5.jpg"><img src="images/thumb5.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/6.jpg"><img src="images/thumb6.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/7.jpg"><img src="images/thumb7.jpg"></a>
+			<a class="fancybox-button" rel="fancybox-button" href="images/8.jpg"><img src="images/thumb8.jpg"></a>
+
+
+
+		</section>
+
+		<a class="moarbutton" href="#">LOTS OF OTHER WORKS</a>
+
+	</div>
+
+</div>
+
+
+<script src="js/fittext.js"></script>
+<script>fitText(document.getElementById('black'), 0.6)</script>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  
+  
+<script type="text/javascript">
+	$(document).ready(function() {
+	$(".fancybox-button").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		arrows: false,
+		mouseWheel: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+			
+		}
+	});
+});
+	
+</script>
 </body>
 </html>
