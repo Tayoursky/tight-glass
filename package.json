@@ -9,12 +9,13 @@
   "author": "Boris Tayoursky",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "latest",
     "browser-sync": "latest",
+    "gulp": "latest",
     "gulp-cssmin": "latest",
     "gulp-htmlmin": "latest",
     "gulp-rename": "latest",
     "gulp-stylus": "latest",
+    "gulp-uglify": "latest",
     "nib": "latest",
     "typographic": "latest"
   }
